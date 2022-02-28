@@ -22,6 +22,87 @@ padding: 0 0 10px; */
 
 
 
+/* Centralisation */
+
+/* bi sir el div bel nos  // cz faddal 30 men asel 100
+wazza3nehon shmel w yamin
+width: 70%;
+margin-left: 15%; */
+
+
+
+/* another method : to align div center
+width:70%;
+margin-left: auto;
+margin-right:auto ;
+*/
+
+
+/* border: hajem Lon No3;
+border-color: red green blue rosybrown;
+border-style:solid dotted solid
+ */
+
+/* background-color: #DDD;
+width: 300px;
+padding: 10px;
+border:10px; 
+ outline: 1px ; el outline huwe 7affet el div barra 
+ sar mase7et el div 340px */
+/* outline-style: dashed; */
+
+
+
+
+
+/* DIISPLAYYYYYYYYYYYYYYYYYYYYYYYY */
+
+/* block */
+/* take full width */
+/* ba3ymul line btrakw tahet baadon byejo
+
+
+ <div>hi</div>
+<div>hi</div> 
+<div>hi</div>
+
+div {
+    padding: 10px;
+    margin:10px;
+} */
+/* /////////////////////// */
+
+/* display: ; */
+/* inline */
+/* dont add line break 
+dont respect top and bottom 
+bya3mul kawares iza ma zabat el margin w bi fut kelshi bel tene  */
+
+
+/* <span><span>
+<span><span>
+<span><span> */
+
+
+
+
+
+
+
+/* inline-block */
+/* respect everything like block bi 3akes el inline 7aff */
+
+
+
+
+
+
+
+
+
+/* <span><span>
+<span><span>
+<span><span> */
 
 
 
