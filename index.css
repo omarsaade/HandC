@@ -420,9 +420,12 @@ www.caniuse.com bi 2elak 3n el versgin taba3 kell shaghle */
 
 /* iza kenet 5asye m3ayane bi mar7alet el testing fa inta mettar'
 thet edema 
--webkit-
--moz- 
--o- 
+
+www.caniuse.com he bt5alik ta3ref iza mad3ume aw la2
+
+-webkit- chrome safari
+-moz- firefox
+-o- opera
 -ms- 
 example => 
 .class{
@@ -430,3 +433,38 @@ example =>
     -moz-border-radius:10px
 
 } */
+
+
+
+
+/* download in visual studio code */
+/* css auto prefix */
+
+/* *{
+    /* border-bottom-left-radius: 10px; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* border-top-left-radius: 10px 20px;  X and Y */
+
+
+
+
+/* box-shawdow */
+/* *{
+    H  V  Blur  Spraed  Color inset
+ box-shadow: 0 0 0 0 #DDD;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

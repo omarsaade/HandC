@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+} 
+
+/* .tran {
+   
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    background-color: red; */
+    /*transition-duration: 1s ,2s;
+    transition-delay: 1s;
+    /*transition-property: margin-left, margin-top;
+    *//*transition-timing-function:linear ;
+    */
+    /* transition: width 10s , height 1s;
+    transition:  prop  func  timing delay;
+     */
+/* }  */
+
+/* .tran:hover{
+   height: 150px;
+    width: 300px;
+  
+} */
+
+
+/* .tran {
+hayda external styling
+}
+
+BAs el inline styling ya habibi a2wa meno */
+
+/* WHOOOOoooooonnn el le3be */
+/* 
+
+
+.tran {
+    background-color: red !important;
+    he bteglob el inline el styling w bta3mul oveerride akho e5to 3le
+} */
+
+
+/* ------------------------------------------------------- */
+/* Css Variables
+
+-GLOBAL VARAIBLES
+-LOCAl Variables */
+
+/* var(variable Name , Fallback Value); */
+
+:root {
+    --mainColor : blue;
+    --mainPadding:20px;
+
+}
+
+/*          kif neta3mlo la hal variable mainColor */
+
+.main {
+    background-color: var(--mainColor);
+    color: var(--mainColor);
+    padding: var(--mainPadding);
+    
+}
+
+
+.main {
+    background-color: var(--mainColor, red);
+    el red hye fallback value , hata barke el lon el aseses 5ereb
+    
+}
+
+
+.main {
+    padding: ;
+}
