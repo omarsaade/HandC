@@ -1,4 +1,4 @@
-.r {
+/* .r { */
     /* background-color: rgb(red, green, blue); */
     /* background-color: #FFFF11; */
     /* # RR GG BB a3la shi hye FF bel color 
@@ -93,20 +93,105 @@ bya3mul kawares iza ma zabat el margin w bi fut kelshi bel tene  */
 /* respect everything like block bi 3akes el inline 7aff */
 
 
-
-
-
-
-
-
-
 /* <span><span>
 <span><span>
 <span><span> */
 
+/* display:none; nothing displayed */
 
 
+/* visibility: visible; zahher */
+/* visibility iza 5fet el 3onsor bt5alli makeno bel workflow */
+/* bi 3akes el block , el block bi shilo w bye3od faw2o */
 
+/* ----------------------Grouping----------- */
+ /* .one ,.two , .three{
+     margin: 10px;
+     width:200px;
+ }
+  */
+  /* .one {
+color: red;
 }
+.two {
+   color:yellow;
+}
+.three{
+   color: blue;
+}
+ */
+
+/* -------------NESTING------------------- */
+
+/* p li jawa el div
+
+NESTING
+div p {
+    color: red;
+} */
+/* } */
 
 
+
+/* Nesting
+ */
+/* div .special {
+    nesting
+} */
+
+
+/* .p {
+    bikun el background-color 3a add el kelme;
+    background-color: red;
+    display: inline-block;
+} */
+
+/* .p { */
+    /* min-width: 200px; w momken yetmadad, */
+    /* max-width: 400px; max width yusalo, */
+    /* max-height : 50px, */
+    /* height:auto huwe el standard */
+    
+    /* yaane bikun tulo 3a add el makal */
+    /* width: fit-content; */
+/* } */
+
+/* div{
+/* overflow: scroll; bas 3ando mehckle,
+overflow: auto,
+overflow-x: hidden; */
+/* ktir mhem bel responsive 
+} */
+
+
+
+/* div {
+    /* text-shadow: ; zillllll */
+    /* text-shadow: 0 0 0 red;
+    horizontal vertical  */
+
+    /* div {
+        /* bisir el kalem bel nos */
+        /* text-align: center; */
+        /* direction: ltr; men el shmel lal yamin aw rtl */
+
+
+
+
+
+
+    div {
+        /* text-decoration: line-through; */
+        /* or underline or overline */
+        /* text-decoration: none; */
+        /* bi shill el 5at men tahet el link */
+        /* text-transform:capitalize ; */
+
+/* --------------TExt SPacing------------ */
+/* letter-spacing: 2px or -2px; */
+/* text-indent: 2px; masse7a fadye abel el text */
+
+
+
+
+    }
