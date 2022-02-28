@@ -180,7 +180,7 @@ overflow-x: hidden; */
 
 
 
-    div {
+    /* div { */
         /* text-decoration: line-through; */
         /* or underline or overline */
         /* text-decoration: none; */
@@ -190,8 +190,66 @@ overflow-x: hidden; */
 /* --------------TExt SPacing------------ */
 /* letter-spacing: 2px or -2px; */
 /* text-indent: 2px; masse7a fadye abel el text */
+/* line-height: 1,3; el space ben el stur */
+/* word-spacing: 30px; */
+/* white-space:normal; */
+/* word-break: break-all; iza tele3 barra el 5at ya3mul rapping */
+/* text-overflow: ellipsis; bi 7et ... */
+
+/* div:hover {
+    overflow: visible;
+} */
+
+/* inherit bi wares el child men el parents */
+/* inherit bi wares el child men el parents */
+/* inherit bi wares el child men el parents */
+/* inherit bi wares el child men el parents */
+/* inherit bi wares el child men el parents */
 
 
 
 
-    }
+
+/* } */
+
+/* -----------------font-family---------- */
+
+/* .p{ */
+    /* web fonts hye shi 2amen */
+    /* font-family:'Courier New', Courier, monospace ; */
+/* sans serif :bidun kasra */
+
+
+
+/* fonts.google.com */
+
+
+/* } */
+
+
+
+
+/* Css Units */
+/* font-size:"10px" pixels
+1em = 16px default font size by w3schools organization */
+
+div span {
+    /* font-size: 2em; yaane 2time yaane adda 3a narten */
+    /* 2rem yaane bye5od men el root element li huwe <html> */
+/* font-size: 100%; yaane nafes mase7et el parents, 
+ 150% yaane iza hye 20px 100% => 150 hye 30px 
+ */
+ /* font-size: 5vw; */
+ /* 1vw hye 1% => 900 hye 1 =>1 men 9 hye 45 */
+
+ /* -------------------reponise------ */
+  /* font-size: 5vw; */
+  /* DYnamic */
+/* font-weight: da5amet el 5at; */
+
+ 
+}
+
+
+
+
