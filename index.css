@@ -368,5 +368,65 @@ font-size: medium;
 
 
 
+/* .one::after {
+    content: " ";
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    left: 90px;
+    top: 0;
+    background-color: aqua;
+}
+.one::before {
+    content: " ";
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    left: 20px;
+    top: 0;
+    background-color: aqua;
+} */
 
-     
+
+/* .one::before {
+    content: "hiiiiii ";
+
+    width: 5px;
+    height: 100px;
+    } 
+ */
+
+
+
+ /* ------------------------------- */
+
+
+
+
+
+
+
+
+/* Vendor Prefixesssss */
+
+/* ca i use */
+
+/* Hon 3m nahke 3an lama ndif bel css haki aw terms
+metel :-webkit , :-moz-ui-invalid ,:-moz-window-inactive....
+w shu bya3mli w shu ahamition w ano hol hene umur 5assa bel version taba3
+el browser el used w fi wesbite esmo
+www.caniuse.com bi 2elak 3n el versgin taba3 kell shaghle */
+
+
+/* iza kenet 5asye m3ayane bi mar7alet el testing fa inta mettar'
+thet edema 
+-webkit-
+-moz- 
+-o- 
+-ms- 
+example => 
+.class{
+    -webkit-border-radius : 10px;
+    -moz-border-radius:10px
+
+} */
