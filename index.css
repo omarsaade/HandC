@@ -233,11 +233,11 @@ overflow-x: hidden; */
 /* font-size:"10px" pixels
 1em = 16px default font size by w3schools organization */
 
-div span {
+/* div span { */
     /* font-size: 2em; yaane 2time yaane adda 3a narten */
     /* 2rem yaane bye5od men el root element li huwe <html> */
 /* font-size: 100%; yaane nafes mase7et el parents, 
- 150% yaane iza hye 20px 100% => 150 hye 30px 
+150% yaane iza hye 20px 100% => 150 hye 30px 
  */
  /* font-size: 5vw; */
  /* 1vw hye 1% => 900 hye 1 =>1 men 9 hye 45 */
@@ -246,10 +246,54 @@ div span {
   /* font-size: 5vw; */
   /* DYnamic */
 /* font-weight: da5amet el 5at; */
+/* cursor: pointer; */
 
- 
+
+/* } */
+
+
+/* .parent div {
+    background-color: red;
+    color:white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 21%;
+    float: left;
+    /* overflow: hidden; */
+/* } */
+
+
+/* .parent {
+    width: 200px;
+} */
+/* .one {
+    background-color: crimson;
+    padding: 20px;
+    top: 20px;
+    position: absolute;
+    /* hon el div byet7arak bine2an 3al nafso */
+
+
+/* .two {
+    background-color: aqua;
+    padding: 20px;
+} */
+
+.parent div {
+    width: 200px;
+  padding: 20px;
 }
 
+.one {
+    background-color: crimson;
+    position: relative;
 
+    /* z-index:3 ; */
+}
 
-
+.two {
+    background-color: aqua;
+  
+}
