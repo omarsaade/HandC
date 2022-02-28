@@ -281,19 +281,92 @@ overflow-x: hidden; */
     padding: 20px;
 } */
 
-.parent div {
+/* .parent div {
     width: 200px;
   padding: 20px;
-}
+} */
 
-.one {
+/* .one {
     background-color: crimson;
     position: relative;
 
     /* z-index:3 ; */
-}
+ 
 
-.two {
+/* .two {
     background-color: aqua;
   
+} */
+
+
+/* ------------------------------------ */
+/* one: xxxxxx{
+xxxxhye el pesudo classes
+} */
+
+/* .two:hover {
+    background-color: white;
+  
+} */
+
+
+/* :checked */
+/* .two:checked + label {
+    background-color: red;
+  yaane bas a3mul checked el shi li baad checked bisir
+} */
+
+
+
+/* .two:visited {
+    background-color: aqua;
+  link zernehhh
+} */
+
+/* .two:empty {
+    background-color: aqua;
+ // aya 3onsor empty bel saf7a
+} */
+
+/* .two:focus{
+    background-color: #FFaaEE; 
+    outline: none;
+    /* //lal imput */
+
+
+
+
+ /* right click 3al element 
+ baada  bta3mul force state */
+
+
+ /* ----------------------------------------------- */
+
+
+
+ /* PSEUDO ELEMENTS      ::          */
+
+
+/* .two::first-letter{
+    color: aquamarine;
 }
+
+
+
+.two::first-line{
+font-size: medium;
+}
+ */
+
+
+
+/* .two::selection{
+    background-color: red;
+    bas ta3mul selelction btegayr lawna w bi ruh lama tshil el select
+}
+     */
+
+
+
+
+     
