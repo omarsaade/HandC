@@ -290,3 +290,276 @@ image:hover {
     opacity: 0.6
     ;
 } */
+
+
+
+
+
+
+
+
+
+
+/* selectors---------------------------------  
+
+
+
+* ALL ELEMENTS 
+Elements => p , div
+element otherelememnt => div p
+.className
+#id
+.parent .child
+.one.two
+.one div , .two p
+element.className
+.parent>.child =>direct child
+==============================
+Element + other ELements => [div + p]
+............             [div ~ p ]
+[Attribute]
+element[attribute]
+[attribute=value]
+element[attribute=value]=>input[type="submit"]
+[attribute~=value]=>contains A word
+[attribute*=value]=>contains A String
+[attribute^=value]=>start with A string
+
+
+
+
+
+
+
+
+*{
+    kelshi
+}
+
+div p {
+    p li jawet div
+}
+
+.parent .child {
+    child li juwa parent
+}
+
+.one.two{
+    yaane element 3ando hal 2 
+    class
+}
+
+
+.d div {
+    div li jawa .d
+}
+
+
+.class-name div ,
+.class-name p {
+ya he ya he
+}
+
+
+
+
+p.class-name {
+p li 3ndo hayda el class name 
+}
+
+
+.one  > .two{
+    yaane element li mubasharatan tahto
+    child mubachar  element
+}
+
+div + p {
+el div li degre men baado paragraph 
+}
+
+
+p ~ div {
+yaane kell el div li mne baad el p li hene e5we w 3a nafes el 5attt
+
+}
+
+
+
+tansik 3an tari2 el attribute
+
+[href] {
+
+kell li 3andon attribute href
+}
+
+
+
+
+
+
+
+
+Elemenmt[attribute]
+div[href] {
+
+div li 3ando attribute href
+}
+
+
+
+
+
+
+Element[attribute]
+div[href=value] {
+
+div li 3ando attribute href esmo "#g"
+}
+
+
+
+
+[attribute~=value] {
+    CONTAINS a WORD
+
+ATTRIBUTE LI 3ANDO KELME MENFESLE ESMA ALI
+}
+
+
+
+
+[attribute~=value] {
+    CONTAINS a WORD
+
+ATTRIBUTE LI 3ANDO KELME MENFESLE ESMA ALI
+}
+
+
+
+
+
+[attribute*=value] {
+    CONTAINS a WORD
+
+ATTRIBUTE LI 3ANDO KELME  ESMA ALI HATA LAW METESLE
+}
+
+
+
+
+[TITLE^="S0"] {
+    EL TITLE LI BYEBDA BI s0 WEN MA KEN AW SHU MA KEN 3ADADO
+
+}
+
+
+p:first-child{
+awal element degre men baaad P
+div 
+p  hayda byetlawan 
+p
+}
+
+
+
+p:last child
+yaane last element fi lal parent
+
+div:last-child {
+ekher div
+
+}
+
+:first-of-type
+awal wehed men naw3o
+
+
+:last-of-type
+ekher wehed men naw3o
+
+
+
+p:only-child
+{
+p waha7iide ahlo ...bi albo wehed bas div> p <div
+}
+
+
+
+p:not(firstchild) {
+}
+
+
+p:not(.special) {
+}
+
+
+//btjib aya 3onsor badak
+:nth-child()
+
+
+p:nth-child(1) {
+}
+
+
+p:nth-child(4) {
+}
+
+p:nth-child(even) {
+    color:"red"
+}
+
+even or odd
+
+-----------------------------
+div:nth-last-child(2){}
+
+div:nth-of-type(2) { color:"red" }
+
+div:nth-last-of-type(color:"blue")
+
+
+
+
+* ALL ELEMENTS 
+Elements => p , div
+element otherelememnt => div p
+.className
+#id
+.parent .child
+.one.two
+.one div , .two p
+element.className
+.parent>.child =>direct child
+==============================
+Element + other ELements => [div + p]
+............             [div ~ p ]
+[Attribute]
+element[attribute]
+[attribute=value]
+element[attribute=value]=>input[type="submit"]
+[attribute~=value]=>contains A word
+[attribute*=value]=>contains A String
+[attribute^=value]=>start with A string
+====================================
+:first-child
+:last-child
+:first-of-type
+:last-of-type
+:only-child
+
+=======
+:not(Selectors)
+:nth-child(n)
+:nth-last-child(n)
+:nth-of-type(n)
+:nth-last-of-type(n)
+
+
+
+
+
+
+
+*/
+
