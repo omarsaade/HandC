@@ -49,15 +49,15 @@ BAs el inline styling ya habibi a2wa meno */
 
 /* var(variable Name , Fallback Value); */
 
-:root {
+/* :root {
     --mainColor : blue;
     --mainPadding:20px;
 
-}
+} */
 
 /*          kif neta3mlo la hal variable mainColor */
 
-.main {
+/* .main {
     background-color: var(--mainColor);
     color: var(--mainColor);
     padding: var(--mainPadding);
@@ -69,9 +69,144 @@ BAs el inline styling ya habibi a2wa meno */
     background-color: var(--mainColor, red);
     el red hye fallback value , hata barke el lon el aseses 5ereb
     
-}
+} */
 
 
-.main {
-    padding: ;
+/* .main {
+    padding:calc(20px + var(--mainPadding));
+    /* zedna 20 3laya */
+
+
+
+/* .s{
+    huwe bi fut abel 3al css hon w baaden biruh 3al varaibe iza 
+    ma la2a
+} */  
+
+
+
+/* flexbox yaane albox el marennn */
+
+/* direction:rtl sar el mawke3 arabiii */
+
+/* mna3ti  lal parent display:flex */
+
+
+/* display:flex
+flex-direction : row....
+flex-wrap:wrap   yaane aya shagle zyede btenzal la tahet
+fi value esma wrap reverse , btsir badal ma tnazel el a5ira
+bel nzul , betale3a bel tlu3
+*/
+
+
+/* For .parent */
+/* display:flex => to start Flexible Box
+flex-direction:row =>default value 
+flex-warp:nowrap => Default Value
+--flex-flow: [Flex-Direction] + [flex-wrap] hay bta5lik 
+testagne 3an flex direct and dlwe wrap */
+
+
+/* 
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+       /* hay btet7akam bi itijehe el flex */
+    /* column-reverse   tawzi3 3amude */
+
+
+
+/* justify-content */
+/* 
+flex-start => default ..yaane hye meshye ma3 el flow taba3 el saf7a
+1 2 3 4 
+5
+
+flex-end
+1 2 3 4 
+       5
+
+center 
+1 2 3 4
+   5     
+    */
+/* 
+
+
+/////////////////////////////
+
+    .parent {
+        display: flex;
+     justify-content: space-between;
+     1       3       5
+    }
+    
+     */
+
+     /* justify-content: space-arround; */
+
+     /* space-evenly = space-between + space arround */
+
+     /* //////////////////////////// */
+
+
+     /* <div class="centre">center</div>
+     .center {
+         display: flex;
+         justify-content :center;
+         align-items:center; bi hetelak el div aw el shagle
+         awal el parent aw ekhera aw bi nos bas tullliaynnnn
+         verticaly w bi dallo kaza element
+         bi sir yeje el kelme bi nos el div
+     } */
+
+
+/* div .c {
+    display: flex;
+    align-content: center;
+    // bye5od el content kelo w byel2o bi baado w bi harko kif mabadak
+    strech value bta3mul fit 3al content kelo w btwas3o fia
+} */
+
+
+
+/* ------------------------- */
+
+
+
+
+/* For .parent */
+/* display:flex => to start Flexible Box
+flex-direction:row =>default value 
+flex-warp:nowrap => Default Value
+--flex-flow: [Flex-Direction] + [flex-wrap] hay bta5lik 
+testagne 3an flex direct and dlwe wrap 
+--justify-content: flex-start =>default value
+--align-items: stretch =>default Value
+--align-content:stretch => default value
+for child
+flex-grow:0 =>default
+flex-shrink:1 =>default
+order : 0 =>defa , huwe tazi3 el child , 1,2,3,4,5
+
+*/
+
+
+/* FOR CHILD */
+/* <div class="flex">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+</div> */
+
+.flex div .a{
+    flex-grow: 1; 
+    /* iza na2et wahad men el div w 3atayo value 2 bi dawbel addon 3a 2 */
+    /* Numuwww */
+    /* bi siro yekbaro el div la yisr add baad */
+    flex-basis: 200px;
+    flex basis byen3ata la element wehed w fik tkabro 3a kayfak
 }
