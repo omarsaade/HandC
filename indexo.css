@@ -554,12 +554,48 @@ element[attribute=value]=>input[type="submit"]
 :nth-last-child(n)
 :nth-of-type(n)
 :nth-last-of-type(n)
+=================
+:root
+:checked
+:input[type="checkbox"]:checked + label {
+    color:"red }
+:empty iza ken fade w badak tbayen lon jaweto
+:disabled
+:required
+input:onfocus{}
+div::selection { color :"black";}
+:: placeholder { color : "red";}
+
+
+========================================================================
 
 
 
-
+video 83
+Media Queries And Responsive Designs Intro
 
 
 
 */
 
+@media print {
+    body {
+        background-color: aqua;
+    }
+}
+
+
+
+
+@media (min-width:900px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+
+@media (min-width:900px) and (max-width:2000px){
+    body {
+        background-color: aqua;
+    }
+}
