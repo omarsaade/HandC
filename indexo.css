@@ -200,13 +200,93 @@ order : 0 =>defa , huwe tazi3 el child , 1,2,3,4,5
 <div>3</div>
 <div>4</div>
 <div>5</div>
-</div> */
+</div> 
 
 .flex div .a{
     flex-grow: 1; 
     /* iza na2et wahad men el div w 3atayo value 2 bi dawbel addon 3a 2 */
     /* Numuwww */
-    /* bi siro yekbaro el div la yisr add baad */
+    /* bi siro yekbaro el div la yisr add baad 
     flex-basis: 200px;
-    flex basis byen3ata la element wehed w fik tkabro 3a kayfak
+    flex basis byen3ata la element wehed w fik tkabro 3a
+}*/
+
+
+/* For .parent */
+/* display:flex => to start Flexible Box
+flex-direction:row =>default value 
+flex-warp:nowrap => Default Value
+--flex-flow: [Flex-Direction] + [flex-wrap] hay bta5lik 
+testagne 3an flex direct and dlwe wrap 
+--justify-content: flex-start =>default value
+--align-items: stretch =>default Value
+--align-content:stretch => default value
+for child
+flex-grow:0 =>default
+flex-shrink:1 =>default
+order : 0 =>defa , huwe tazi3 el child , 1,2,3,4,5
+flex-basis:auto =>default
+flex: [flex grow] [flex shrink] [flex basis] 0 1 auto
+align-self:auto = > default value
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////filter//////////////////////////////////////////////// */
+
+/* img {
+    transition: 0.3s;
+    filter: grayscale(100%);
 }
+
+img:hover {
+    filter: grayscale(0);
+} */
+
+
+/* a{
+    pointer-events:none;
+
+} */
+
+
+
+/* //////////////////////GRIDDDDD///////////////////////////////// */
+
+/* transform ahsan men width */
+
+#a {
+    /* scale(x,y); */
+/* transform: scale(1,5);  byetmadad wehed */
+/* transform: rotate(45deg); bi lef 45 darage */
+/* 1turn yaane 360degre */
+/* 0.5trun 150degre   */
+}
+/* 
+ 
+
+.image {
+overflow: hidden;
+width: 720px;
+height: 350px;
+}
+
+
+.image img {
+    transition: 0.5s;
+}
+
+image:hover {
+    transform: scale(1.3) rotate(5deg);
+    opacity: 0.6
+    ;
+} */
